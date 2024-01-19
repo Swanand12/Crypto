@@ -36,7 +36,7 @@ export default function Home() {
               <tbody className="text-center ">
                 {dummyData.dummyData.map((item) => (
                   <tr key={item.AlertName}>
-                    <td>{item.AlertName}</td>xxx    
+                    <td>{item.AlertName}</td>    
                     <td>{item.Transaction_amt}</td>
                     <td>{item.INR_$}</td>
                     <td>{item.TimeStamp}</td>
