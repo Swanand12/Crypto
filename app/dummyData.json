@@ -1,0 +1,59 @@
+{
+  "dummyData": [
+  {
+    "AlertName": "Swanand",
+    "Transaction_amt": 25,
+    "INR_$": 105,
+    "TimeStamp": 89,
+    "Category": "A",
+    "Wallet": "23",
+    "Transaction_Id": 8
+  },
+  {
+    "AlertName": "Swanand",
+    "Transaction_amt": 25,
+    "INR_$": 105,
+    "TimeStamp": 89,
+    "Category": "A",
+    "Wallet": "23",
+    "Transaction_Id": 8
+  },
+  {
+    "AlertName": "Swanand",
+    "Transaction_amt": 25,
+    "INR_$": 105,
+    "TimeStamp": 89,
+    "Category": "A",
+    "Wallet": "23",
+    "Transaction_Id": 8
+  },
+  {
+    "AlertName": "Swanand",
+    "Transaction_amt": 25,
+    "INR_$": 105,
+    "TimeStamp": 89,
+    "Category": "A",
+    "Wallet": "23",
+    "Transaction_Id": 8
+  },
+  {
+    "AlertName": "Swanand",
+    "Transaction_amt": 25,
+    "INR_$": 105,
+    "TimeStamp": 89,
+    "Category": "A",
+    "Wallet": "23",
+    "Transaction_Id": 8
+  },
+  {
+    "AlertName": "Swanand",
+    "Transaction_amt": 25,
+    "INR_$": 105,
+    "TimeStamp": 89,
+    "Category": "A",
+    "Wallet": "23",
+    "Transaction_Id": 8
+  }
+]}
+
+

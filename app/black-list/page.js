@@ -1,23 +1,17 @@
-import SideBar from "@/app/components/sideBar";
-import Header from "@/app/components/header";
-import dummyData from "./dummyData.json";
+import SideBar from "../components/sideBar";
+import Header from "../components/header";
+import dummyData from "../dummyData.json";
 
 
-export default function Home() {
+export default function BlackList() {
   return (
     <>
       <div className="WatchList h-full w-full flex">
         <SideBar />
-        <div className="bg-neutral-200   h-full w-4/5">
-          <Header add={true} del={true}/>
+        <div className="bg-neutral-200 text-black h-full w-4/5">
+          <Header add={true} del={false} />
 
-
-          <div className="flex px-12">
-            <input className="w-full h-9 text-black " type="text"></input>
-            <button className="border-2 border-blue-900 px-1">Search</button>
-          </div>
-
-          <div className="pt-4">
+          <div>
             <table className="w-full">
               <thead className="w-full h-16 bg-neutral-200 border-t-2 border-b-2 border-black">
                 <tr>
@@ -28,23 +22,19 @@ export default function Home() {
                   <th>Balance</th>
                   <th>Transaction Value</th>
                   <th>Category</th>
-                  <th>Black Listed</th>
-                  <th>Edit</th>
                 </tr>
               </thead>
 
               <tbody className="text-center ">
                 {dummyData.dummyData.map((item) => (
                   <tr key={item.AlertName}>
-                    <td>{item.AlertName}</td>xxx    
+                    <td>{item.AlertName}</td>
                     <td>{item.Transaction_amt}</td>
                     <td>{item.INR_$}</td>
                     <td>{item.TimeStamp}</td>
                     <td>{item.Category}</td>
                     <td>{item.Wallet}</td>
                     <td>{item.Transaction_Id}</td>
-                    <td>{item.Category}</td>
-                    <td>{item.AlertName}</td>
                   </tr>
                 ))}
               </tbody>
