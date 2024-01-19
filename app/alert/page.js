@@ -1,5 +1,5 @@
-import SideBar from "../components/sideBar";
-import Header from "../components/header";
+import SideBar from "../../components/sideBar";
+import Header from "../../components/header";
 import dummyData from "../dummyData.json";
 
 
